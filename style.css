@@ -1,8 +1,57 @@
+* {
+    font-family: 'Gantari', sans-serif;
+    margin: 0px;
+}
+
 body {
     background-color: #101010;
 }
 
+p {
+    color: #F2F2F2;
+}
+
+.first_screen {
+    height: 100vh;
+    background-image: url(img/bg-pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .logo {
-    width: 111px;
-    height: 68px;
+    padding-top: 40px;
+    padding-left: 128px;
+}
+
+.myname {
+    font-size: 128px;
+    position: absolute;
+    bottom: -15px;
+    left: 10px;
+}
+
+.go-button {
+    border: 1px solid #4D4D4D;
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    position: absolute;
+    right: 132px;
+    bottom: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-indicator {
+    margin-top: 15px;
+    width: 43px;
+    height: 64px;
+}
+
+.go-indicator p {
+    margin-bottom: 15px;
 }
