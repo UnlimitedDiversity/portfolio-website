@@ -5,15 +5,21 @@
 
 body {
     background-color: #101010;
+    height: 6810px;
 }
 
 p {
     color: #F2F2F2;
 }
 
+
+.space_between {
+    margin-top: 320px;
+}
+
 .first_screen {
+    background-image: url(img/bgs/first_screen-bg.png);
     height: 100vh;
-    background-image: url(img/bg-pic.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,12 +52,34 @@ p {
     justify-content: center;
 }
 
+.go-indicator p {
+    margin-bottom: 15px;
+}
+
 .go-indicator {
     margin-top: 15px;
     width: 43px;
     height: 64px;
+    font-size: 16px;
 }
 
-.go-indicator p {
-    margin-bottom: 15px;
+.introduction {
+    background-image: url(/img/bgs/introduction-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 1140px;
+    margin-top: 320px;
+    margin: 0px;
+
 }
+
+.introduction p {
+    width: 1670px;
+    text-align: center;
+    padding-top: 512px;
+    padding-left: 125px;
+    font-size: 24px;
+}
+
+
+
