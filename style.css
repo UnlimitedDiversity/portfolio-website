@@ -7,6 +7,7 @@
 body {
     background-color: #101010;
     height: 6810px;
+    overflow-x: hidden;
 }
 
 p {
@@ -18,12 +19,23 @@ p {
     margin-top: 320px;
 }
 
-.first_screen {
-    background-image: url(img/bgs/first_screen-bg.png);
-    height: 100vh;
-    background-position: center;
+.first_wrapper {
+    width: 100%;
+    height: 920px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/img/bgs/first_screen-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
+}
+
+.first_screen {
+    width: 1920px;
+    height: 100%;
+    position: absolute;
 }
 
 
@@ -65,19 +77,16 @@ p {
 }
 
 .introduction {
-    background-image: url(/img/bgs/introduction-bg.png);
-    background-size: cover;
-    width: 100%;
+    width: 1920px;
     height: 1140px;
-    margin-top: 320px;
-    margin: 0px;
-
+    position: relative;
 }
 
 .introduction p {
+    left: 125px;
+    top: 512px;
+    position: absolute;
     width: 1670px;
     text-align: center;
-    padding-top: 512px;
-    padding-left: 125px;
     font-size: 24px;
 }
