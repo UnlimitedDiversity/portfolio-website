@@ -136,7 +136,7 @@ h5 {
 
 .third_screen {
     width: 100%;
-    height: 1083px;
+    height: 1908px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -151,10 +151,15 @@ h5 {
 
 }
 
+.left-container a {
+    text-decoration: none;
+}
+
 .scpdc {
     padding-top: 115px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .left-container {
@@ -179,7 +184,7 @@ h5 {
     color: #F2F2F2;
     display: flex;
     justify-content: center;
-    margin-top: 11px;
+    margin-top: 12px;
 }
 
 
@@ -192,12 +197,29 @@ h5 {
 }
 
 .scpdc-pic {
-    z-index: 2;
     position: absolute;
     left: 103px;
     top: 114px;
 }
 
 .plastic-wrap {
+    z-index: 1;
+    opacity: .9;
     position: absolute;
 }
+
+.bottom-container {
+    display: flex;
+    width: 1930px;
+    height: 260px;
+    margin-left: 125px;
+}
+
+.png_container {
+    margin-right: 20px;
+    width: 370px;
+    height: 208px;
+    background: #262626;
+}
+
+
